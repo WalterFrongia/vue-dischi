@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="content-section">
 
   </div>
 </template>
@@ -18,4 +18,8 @@ export default {
 @import "../style/variables.scss";
 @import "../style/general.scss"; 
 
+#content-section{
+    height: 90vh;
+    background-color:rgb(3, 3, 26);
+}
 </style>

@@ -1,8 +1,10 @@
 <template>
-    <div id="header">
-        <div class="container">
-            <div class="col-12">
-                <h1>IMG</h1>
+    <div id="header-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 " id="my-container-logo">
+                    <img src="../assets/imagess/spotify-logo.jpg" alt="">
+                </div>
             </div>
         </div>
     </div>
@@ -18,5 +20,18 @@ export default {
 
 @import "../style/variables.scss";
 @import "../style/general.scss";
+
+#header-section{
+    background-color: rgb(0, 22, 63);
+    height: 10vh;
+    
+}
+
+#my-container-logo{
+    height: 10vh;
+    img{
+        height: 100%;
+    }
+}
 
 </style>
