@@ -11,6 +11,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "./sryle/variables.scss";
+@import "../style/variables.scss";
 
 </style>

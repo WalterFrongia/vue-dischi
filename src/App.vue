@@ -18,7 +18,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import "./sryle/variables.scss";
+@import "./style/variables.scss";
 
 
 </style>

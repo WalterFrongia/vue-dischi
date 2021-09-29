@@ -5,16 +5,16 @@
 </template>
 
 <script>
-import Card from './Card.vue'
+// import Card from './Card.vue'
 
 export default {
     components: {
-        Card,
+        // Card,
     }
 }
 </script>
 
 <style lang="scss" scoped>
-@import "./sryle/variables.scss";
+@import "../style/variables.scss";
 
 </style>
