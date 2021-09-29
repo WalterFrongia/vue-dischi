@@ -3,7 +3,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 " id="my-container-logo">
-                    <img src="../assets/imagess/spotify-logo.jpg" alt="">
+                    <img src="../assets/imagess/spotify-logo.png" alt="">
                 </div>
             </div>
         </div>
@@ -23,12 +23,11 @@ export default {
 
 #header-section{
     background-color: rgb(0, 22, 63);
-    height: 10vh;
-    
+    height: $heightHeader;
 }
 
 #my-container-logo{
-    height: 10vh;
+    height: $heightHeader;
     img{
         height: 100%;
     }
