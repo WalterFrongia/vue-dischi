@@ -1,15 +1,17 @@
 <template>
   <div id="content-section">
-
+      <div id="cards-container">
+          <Card/>
+      </div>
   </div>
 </template>
 
 <script>
-// import Card from './Card.vue'
+import Card from './Card.vue'
 
 export default {
     components: {
-        // Card,
+        Card
     }
 }
 </script>
@@ -19,7 +21,11 @@ export default {
 @import "../style/general.scss"; 
 
 #content-section{
-    height: 90vh;
-    background-color:rgb(3, 3, 26);
+    height:90vh;
+    background-color:rgb(38, 38, 51);
+}
+
+#cards-container{
+    display: flex;
 }
 </style>

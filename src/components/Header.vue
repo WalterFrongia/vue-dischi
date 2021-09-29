@@ -22,7 +22,7 @@ export default {
 @import "../style/general.scss";
 
 #header-section{
-    background-color: rgb(0, 22, 63);
+    background-color: rgb(47, 57, 77);
     height: $heightHeader;
 }
 

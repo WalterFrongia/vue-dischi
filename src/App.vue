@@ -1,19 +1,19 @@
 <template>
   <div id="app">
     <Header/>
-    <Main/>
+    <Content/>
   </div>
 </template>
 
 <script>
 // import axios from 'axios' (fino a quando non lo utilizzo non devo importarlo)
 import Header from './components/Header.vue'
-import Main from './components/Main.vue'
+import Content from './components/Content.vue'
 
 export default {
   components: {
     Header,
-    Main,
+    Content,
   }
 }
 </script>
