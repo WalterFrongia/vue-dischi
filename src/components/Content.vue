@@ -2,6 +2,11 @@
   <div id="content-section">
       <div id="cards-container">
           <Card/>
+          <Card/>
+          <Card/>
+          <Card/>
+          <Card/>
+          <Card/>
       </div>
   </div>
 </template>
@@ -27,5 +32,7 @@ export default {
 
 #cards-container{
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 </style>

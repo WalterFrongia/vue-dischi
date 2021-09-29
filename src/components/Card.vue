@@ -16,8 +16,9 @@ export default {
 
 .card-element{
     height: 150px;
-    width:200px;
+    margin:0 5px;
 
     background-color: white;
+    flex-basis: calc(100% / 6 - 30px );
 }
 </style>
