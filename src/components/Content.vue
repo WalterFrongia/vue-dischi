@@ -1,9 +1,9 @@
 <template>
-  <div id="content-section">
-      <div id="cards-container">
-          <Card/>        
-      </div>
-  </div>
+    <div id="content-section">
+        <div id="cards-container">
+            <card v-for="(card, index) in arrayMusic" :key="index" :image="card.poster" />      
+        </div>
+    </div>
 </template>
 
 <script>
