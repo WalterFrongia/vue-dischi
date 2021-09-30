@@ -1,12 +1,15 @@
 <template>
     <div class="card-element">
-        <img :src="image" alt="">  
+        <img :src="image" alt="">
+        <p>{{title}}</p>
+        <p>{{author}}</p>
+        <p>{{year}}</p>
     </div>
 </template>
 
 <script>
 export default {
-    props: ["image"],
+    props: ["image", "title", "author", "year"],
     data: function(){
         return{
         
@@ -21,17 +24,16 @@ export default {
 @import "../style/variables.scss";
 
 .card-element{
-    height: 200px;
-    width: 200px;
     margin:5px;
+    text-align: center;
 
     background-color: white;
 
-    flex-basis: calc(100% / 6 - 30px );
+    flex-basis: calc(100% / 5 - 25px );
 }
 
 img{
-    height: 100%;
-    width:100%;
+    height: 60%;
+    width: 60%;
 }
 </style>

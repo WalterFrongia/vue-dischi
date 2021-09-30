@@ -1,7 +1,7 @@
 <template>
     <div id="content-section">
         <div id="cards-container">
-            <card v-for="(card, index) in arrayMusic" :key="index" :image="card.poster" />      
+            <card v-for="(card, index) in arrayMusic" :key="index" :image="card.poster" :title="card.title" :author="card.author" :year="card.year"/>      
         </div>
     </div>
 </template>
@@ -34,8 +34,8 @@ export default {
 @import "../style/general.scss"; 
 
 #content-section{
-    height:90vh;
     background-color:rgb(38, 38, 51);
+    padding:80px 0;
 }
 
 #cards-container{
