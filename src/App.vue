@@ -6,7 +6,6 @@
 </template>
 
 <script>
-// import axios from 'axios' (fino a quando non lo utilizzo non devo importarlo)
 import Header from './components/Header.vue'
 import Content from './components/Content.vue'
 
@@ -14,7 +13,11 @@ export default {
   components: {
     Header,
     Content,
-  }
+  },
+  data: function(){
+        return{
+        }
+    },
 }
 </script>
 

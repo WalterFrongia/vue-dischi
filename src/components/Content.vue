@@ -1,22 +1,30 @@
 <template>
   <div id="content-section">
       <div id="cards-container">
-          <Card/>
-          <Card/>
-          <Card/>
-          <Card/>
-          <Card/>
-          <Card/>
+          <Card/>        
       </div>
   </div>
 </template>
 
 <script>
+import axios from 'axios'
 import Card from './Card.vue'
 
 export default {
     components: {
         Card
+    },
+    data: function(){
+        return{
+            arrayMusic: [],
+        }
+    },
+    mounted() {
+        axios.get('https://flynn.boolean.careers/exercises/api/array/music')
+        .then((response) => {
+        this.arrayMusic = (response.data.response);
+        console.log(this.arrayMusic);
+        });
     }
 }
 </script>
